@@ -1,24 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-
 <style>
-body {
-    background-image: url('images/silenthill.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-
+    body {
+        background-image: var(--body-bg);
+        background-color: #6c6378;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+    :root {
+        --body-bg: url('images/silenthill.png');
+    }
 </style>
+<html lang="en">
 <head>
-
-
 <title>
 uwu :3
 </title>
-
 <link rel="icon" type="image/x-icon" href="images/trans.png">
-
-
 </head>
+<body>
+</body>
+</html>
+<script>
+let text;
+if (Math.random() < 0.5) {
+        text = "url('images/silenthill.png')"
+} else {
+        text = "url('images/silenthill2.png')"
+}
+document.documentElement.style.setProperty('--body-bg', text);
+</script>
 </html>
