@@ -12,6 +12,20 @@ position: relative;
 background: rgb(52, 135, 202);
     }
 
+.pink1 {
+padding:50px;
+position: relative;
+background: #ff98b9;
+}
+
+.white1 {
+    padding:50px;
+    position: relative;
+    background: #ffffff;
+    }
+
+
+
  .webring {
  transform: scale(1.4);
  margin: auto;
