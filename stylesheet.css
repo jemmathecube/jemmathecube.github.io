@@ -34,7 +34,26 @@ background: #ff98b9;
   }
 
 body {
-    background-image: url('images/bannerimage.png');
+    background-image:
+    linear-gradient(
+    #6c1169 0%, 
+    #6c1169 7.77%,
+    #94216a 7.77%,
+    #94216a 17.22%,
+    #ca246f 17.22%,
+    #ca246f 32.77%,
+    #ff2674 32.77%,
+    #ff2674 42.22%,
+    #ff554d 42.22%,
+    #ff554d 57.77%,
+    #ff8426 57.77%,
+    #ff8426 67.13%,
+    #ffab13 67.13%,
+    #ffab13 82.68%,
+    #ffd100 82.68%,
+    #ffd100 92.13%,
+    #fde77f 92.13%
+    );
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
