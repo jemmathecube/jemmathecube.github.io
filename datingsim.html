@@ -1,42 +1,766 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<style>
+    body {
+    background-image: url('images/island.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    /*Text Color*/
+    color:#000000;
+    
+    /*Text Margins*/
+    margin: 50px;
+    padding: 50px;
+    
+    /*Font*/
+    font-family:"Fira Sans Condensed", sans-serif;
+    }
+    .fira-sans condensed-thin {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-extralight {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-light {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-regular {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-medium {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-semibold {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-bold {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-extrabold {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-black {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-thin-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 100;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-extralight-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 200;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-light-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 300;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-regular-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-medium-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 500;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-semibold-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 600;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-bold-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-extrabold-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 800;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-black-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 900;
+      font-style: italic;
+    }
+    
+    /*Font Size*/
+    h1 {
+        font-size:30px;
+    }
+    h2 {
+        font-size:45px;
+    }
+    h3 {
+        font-size:20px;
+    }
+    p {
+        font-size:26px;
+    }
+
+.CrispPixels {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+}
+.CrispPixels2 {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.dateDialogue {
+    border-width:10px; 
+    border-style:solid;
+    border-color: rgb(52, 135, 202);
+    background:  rgb(67, 170, 255);
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+    padding:10px;
+}
+.dateOption {
+border-width:10px; 
+border-style:solid;
+border-color: #ff6294;
+background: #ff98b9;
+box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+width:50%;
+padding:10px;
+}
+
+</style>
+
 
 <head>
 
 
 
-<link rel="stylesheet" type="text/css" href="darkstylesheet.css">
-
-<!--Tab Title-->
-
-<title>
-Dating Sim
-</title>
-
-
-
-<!--Tab Image-->
-
-<link rel="icon" type="image/x-icon" href="images/hiyaderredicon.png">
-
-
-
-<!--Fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-
-
-</head>
+    
+    <!--Tab Title-->
+    
+    <title>
+    Dating Sim
+    </title>
+    
+    
+    
+    <!--Tab Image-->
+    
+    <link rel="icon" type="image/x-icon" href="images/hiyaderredicon.png">
+    
+    
+    
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    </head>
 
 
-<img src="images/mood/back.png" class="CrispPixels2">
-<img src="images/mood/blush.png" class="CrispPixels2">
-<img src="images/mood/catface.png" class="CrispPixels2">
-<img src="images/mood/look.png" class="CrispPixels2">
-<img src="images/mood/meh.png" class="CrispPixels2">
-<img src="images/mood/norm.png" class="CrispPixels2">
-<img src="images/mood/outtahere.png" class="CrispPixels2">
-<img src="images/mood/pissed.png" class="CrispPixels2">
-<img src="images/mood/uwu.png" class="CrispPixels2">
+    <audio id="seinfeld">
+        <source src="audio/seinfeld.mp3" type="audio/mpeg">
+        aw
+      </audio>
+
+<!--Defining-->
+<background id="background">
+</background>
+<center>
+<image id="image" width="30%">
+</image>
+<br> <br>
+<h1>
+<div class="dateDialogue">
+<text id="dialogue">
+</text>  
+</h1>
+</div>
+<br>
+<h3>
+<div class="dateOption">
+<text id="button1">
+</text>
+</div>
+<br>
+<div class="dateOption">
+<text id="button2">
+</text>
+</div>
+<br>
+<div class="dateOption">
+<text id="button3">
+</text>
+</div>
+<br>
+<div class="dateOption">
+<text id="button4">
+</text>
+</div>
+</h3>
+</center>
+<br>
+
+<!--Interactions-->
+<script>
+
+document.getElementById('image').src = "images/mood/back.png";
+document.getElementById('dialogue').innerHTML = '...';
+document.getElementById('button1').onclick = function(){O0()};
+document.getElementById('button1').innerHTML = 'play';
+document.getElementById('button2').innerHTML = '-';
+document.getElementById('button3').innerHTML = '-';
+document.getElementById('button4').innerHTML = 'this is a demo and is not complete. You can get 5 endings, try to find them all!';
+
+function moodNorm(){
+    document.getElementById('image').src = "images/mood/norm.png";
+}
+function moodPiss(){
+    document.getElementById('image').src = "images/mood/pissed.png";
+}
+function moodOut(){
+    document.getElementById('image').src = "images/mood/outtahere.png";
+}
+function moodBlush(){
+    document.getElementById('image').src = "images/mood/blush.png";
+}
+function moodCat(){
+    document.getElementById('image').src = "images/mood/catface.png";
+}
+function moodLook(){
+    document.getElementById('image').src = "images/mood/look.png";
+}
+function moodMeh(){
+    document.getElementById('image').src = "images/mood/meh.png";
+}
+function moodUwU(){
+    document.getElementById('image').src = "images/mood/uwu.png";
+}
+function moodBack(){
+    document.getElementById('image').src = "images/mood/back.png";
+}
+
+function moodRealCat(){
+    document.getElementById('image').src = "images/mood/realcat.png";
+}
+
+
+//O0//O0//O0//O0//O0//O0
+function O0(){
+moodBack();
+document.getElementById('dialogue').innerHTML = '<i>You wake up at the hotel feeling energized, ready to go out on a walk.</i>';
+document.getElementById('button1').innerHTML = '<i>continue..</i>';
+document.getElementById('button1').onclick = function(){O0A()};
+document.getElementById('button2').onclick = function(){O0()};
+document.getElementById('button3').onclick = function(){O0()};
+document.getElementById('button4').innerHTML = '-';
+document.getElementById('button4').onclick = function(){O0()};
+}
+function O02(){
+moodBack();
+document.getElementById('dialogue').innerHTML = '<i>You wake up at the hotel feeling energized, ready to go out on a walk.</i>';
+document.getElementById('button1').innerHTML = '<i>continue..</i>';
+document.getElementById('button1').onclick = function(){O0A()};
+document.getElementById('button2').onclick = function(){O0()};
+document.getElementById('button3').onclick = function(){O0()};
+document.getElementById('button4').innerHTML = '<i>skip</i>';
+document.getElementById('button4').onclick = function(){O0J()};
+}
+function O0A(){
+document.getElementById('dialogue').innerHTML = '<i>The smell of the ocean air puts you in your place, in all its breathtaking glory.</i>';
+document.getElementById('button1').innerHTML = '<i>continue..</i>';
+document.getElementById('button1').onclick = function(){O0B()};
+document.getElementById('button2').onclick = function(){O0A()};
+document.getElementById('button3').onclick = function(){O0A()};
+document.getElementById('button4').innerHTML = '-';
+document.getElementById('button4').onclick = function(){O0A()};
+}
+function O0B(){
+document.getElementById('dialogue').innerHTML = '<i>The crunch of the sand under you, as you take careful steps around jagged rocks and sand castles.</i>';
+document.getElementById('button1').innerHTML = '<i>continue..</i>';
+document.getElementById('button1').onclick = function(){O0C()};
+document.getElementById('button2').onclick = function(){O0B()};
+document.getElementById('button3').onclick = function(){O0B()};
+document.getElementById('button4').onclick = function(){O0B()};
+}
+function O0C(){
+document.getElementById('dialogue').innerHTML = '<i>Oh, it would be a wonder to encapsulate the feeling in text.</i>';
+document.getElementById('button1').innerHTML = '<i>continue..</i>';
+document.getElementById('button1').onclick = function(){O0D()};
+document.getElementById('button2').onclick = function(){O0C()};
+document.getElementById('button3').onclick = function(){O0C()};
+document.getElementById('button4').onclick = function(){O0C()};
+}
+function O0D(){
+document.getElementById('dialogue').innerHTML = '<i>The sounds, the sights, the feels, the sand, the air, the water, the waves, the leaves, the rocks, the sun, the temperature, the humidity, the moisture, the dewdrops, the sand castle, the sand castle (2), the asshole kicking over the sand castle (2), the kid screaming, the kid ordering an ice cream, the ice cream, the taste of the ice cream..</i>';
+document.getElementById('button1').innerHTML = '<i>skip dialogue</i>';
+document.getElementById('button1').onclick = function(){O0E()};
+document.getElementById('button2').onclick = function(){O0D()};
+document.getElementById('button3').onclick = function(){O0D()};
+document.getElementById('button4').onclick = function(){O0D()};
+}
+function O0E(){
+document.getElementById('dialogue').innerHTML = '<i>..the animated shark tv series come to life in a new and interesting way complete with technicolor and twitch integration, ah, all the details, all perfect.</i>';
+document.getElementById('button1').innerHTML = '<i>continue..</i>';
+document.getElementById('button1').onclick = function(){O0F()};
+document.getElementById('button2').onclick = function(){O0E()};
+document.getElementById('button3').onclick = function(){O0E()};
+document.getElementById('button4').onclick = function(){O0E()};
+}
+function O0F(){
+document.getElementById('dialogue').innerHTML = '<i>Wanna know about the sky?</i>';
+document.getElementById('button1').innerHTML = '<i>yes</i>';
+document.getElementById('button1').onclick = function(){O0G()};
+document.getElementById('button2').innerHTML = '<i>no</i>';
+document.getElementById('button2').onclick = function(){O0H()};
+document.getElementById('button3').onclick = function(){O0F()};
+document.getElementById('button4').onclick = function(){O0F()};
+}
+function O0G(){
+document.getElementById('dialogue').innerHTML = '<i>fuck you</i>';
+document.getElementById('button1').innerHTML = '<i>continue..</i>';
+document.getElementById('button1').onclick = function(){O0I()};
+document.getElementById('button2').innerHTML = '-';
+document.getElementById('button2').onclick = function(){O0G()};
+document.getElementById('button3').onclick = function(){O0G()};
+document.getElementById('button4').onclick = function(){O0G()};
+}
+function O0H(){
+document.getElementById('dialogue').innerHTML = '<i>good</i>';
+document.getElementById('button1').innerHTML = '<i>continue..</i>';
+document.getElementById('button1').onclick = function(){O0I()};
+document.getElementById('button2').innerHTML = '-';
+document.getElementById('button2').onclick = function(){O0H()};
+document.getElementById('button3').onclick = function(){O0H()};
+document.getElementById('button4').onclick = function(){O0H()};
+}
+function O0I(){
+document.getElementById('dialogue').innerHTML = "<i>All of a sudden, you stumble upon a blue... square?? Cube?? Of some kind? You can't discern the exact reason youre drawn to this, but it (he, she, they?? I have no idea the gender of the cube) fascinates you. You give a tap on the back.</i>";
+document.getElementById('button1').innerHTML = '<i>tap them</i>';
+document.getElementById('button1').onclick = function(){O0J()};
+document.getElementById('button2').onclick = function(){O0I()};
+document.getElementById('button3').onclick = function(){O0I()};
+document.getElementById('button4').onclick = function(){O0I()};
+}
+function O0J(){
+moodNorm();
+document.getElementById('dialogue').innerHTML = "oh, hiya :3 I didnt see you there! My name's Jemma!";
+document.getElementById('button1').innerHTML = '<i>continue..</i>';
+document.getElementById('button1').onclick = function(){O0K()};
+document.getElementById('button2').onclick = function(){O0J()};
+document.getElementById('button3').onclick = function(){O0J()};
+document.getElementById('button4').innerHTML = '-';
+document.getElementById('button4').onclick = function(){O0J()};
+}
+function O0K(){
+document.getElementById('dialogue').innerHTML = "<i>She's very hot, but unfortunately you were staring at her backside for a solid 3 minutes before talking to her. Yikes. Not a good start.</i>";
+document.getElementById('button1').innerHTML = 'hi!';
+document.getElementById('button1').onclick = function(){O2()};
+document.getElementById('button2').innerHTML = 'hello!';
+document.getElementById('button2').onclick = function(){O2()};
+document.getElementById('button3').innerHTML = 'I was staring  at your butt';
+document.getElementById('button3').onclick = function(){O1()};
+document.getElementById('button4').innerHTML = 'hiya!';
+document.getElementById('button4').onclick = function(){O3()};
+}
+
+//O1//O1//O1//O1//O1//O1
+function O1(){
+    moodPiss();
+document.getElementById('dialogue').innerHTML = "what the fuck";
+document.getElementById('button1').innerHTML = "uhhhhhhhh";
+document.getElementById('button1').onclick = function(){O4()};
+document.getElementById('button2').innerHTML = "it was a prank bro";
+document.getElementById('button2').onclick = function(){O1A()};
+document.getElementById('button3').innerHTML = "but you're hot!";
+document.getElementById('button3').onclick = function(){O4A()};
+document.getElementById('button4').innerHTML = "flat ass";
+document.getElementById('button4').onclick = function(){O4A()};
+}
+function O1A(){
+    moodMeh();
+document.getElementById('dialogue').innerHTML = "you're sure?";
+document.getElementById('button1').innerHTML = "uhhhhh";
+document.getElementById('button1').onclick = function(){O1B()};
+document.getElementById('button2').innerHTML = "ummmm";
+document.getElementById('button2').onclick = function(){O1B()};
+document.getElementById('button3').innerHTML = "wellllll";
+document.getElementById('button3').onclick = function(){O1B()};
+document.getElementById('button4').innerHTML = "flat ass";
+document.getElementById('button4').onclick = function(){O4A()};
+}
+function O1B(){
+moodBlush();
+document.getElementById('dialogue').innerHTML = "it was funny haha";
+document.getElementById('button1').innerHTML = "crisis averted!";
+document.getElementById('button1').onclick = function(){O1C()};
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O1B()};
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O1B()};
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){O1B()};
+}
+function O1C(){
+moodMeh();
+document.getElementById('dialogue').innerHTML = "?";
+document.getElementById('button1').innerHTML = "...did I say that out loud?";
+document.getElementById('button1').onclick = function(){O1D()}; 
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O1C()};
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O1C()};
+document.getElementById('button4').innerHTML = "-"
+document.getElementById('button4').onclick = function(){O1C()};
+}
+function O1D(){
+    moodOut();
+document.getElementById('dialogue').innerHTML = "pfffffffffffffffft";
+document.getElementById('button1').innerHTML = '<i>end</i>';
+document.getElementById('button1').onclick = function(){E21()}, playAudio(); 
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O1D()};
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O1D()};
+document.getElementById('button4').innerHTML = "-"
+document.getElementById('button4').onclick = function(){O1D()};
+}
+
+//O2//O2//O2//O2//O2//O2
+function O2(){
+document.getElementById('dialogue').innerHTML = "hiya :3";
+document.getElementById('button1').innerHTML = "<i>continue..</i>";
+document.getElementById('button1').onclick = function(){O2A()};
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O2()};
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O2()};
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){O2()};
+}
+function O2A(){
+document.getElementById('dialogue').innerHTML = "...";
+document.getElementById('button1').innerHTML = "<i>continue..</i>";
+document.getElementById('button1').onclick = function(){O2B()};
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O2A()};
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O2A()};
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){O2A()};
+}
+function O2B(){
+    moodLook()
+document.getElementById('dialogue').innerHTML = "...";
+document.getElementById('button1').innerHTML = "<i>continue..</i>";
+document.getElementById('button1').onclick = function(){O2C()};
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O2B()};
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O2B()};
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){O2B()};
+}
+function O2C(){
+    moodBack()
+document.getElementById('dialogue').innerHTML = "...";
+document.getElementById('button1').innerHTML = "<i>continue..</i>";
+document.getElementById('button1').onclick = function(){O2D()};
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O2C()};
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O2C()};
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){O2C()};
+}
+function O2D(){
+    moodNorm()
+document.getElementById('dialogue').innerHTML = "...";
+document.getElementById('button1').innerHTML = "<i>continue..</i>";
+document.getElementById('button1').onclick = function(){O2E()};
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O2D()};
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O2D()};
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){O2D()};
+}
+function O2E(){
+    moodUwU()
+document.getElementById('dialogue').innerHTML = "talking to people is hard uwu";
+document.getElementById('button1').innerHTML = "no it isn't";
+document.getElementById('button1').onclick = function(){E3()};
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O6()};
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O5()};
+document.getElementById('button4').innerHTML = "then don't talk! mrow~";
+document.getElementById('button4').onclick = function(){E22()};
+}
+
+//O3//O3//O3//O3//O3//O3
+function O3(){
+    moodPiss();
+document.getElementById('dialogue').innerHTML = "you think you're so fucking clever aren't you";
+document.getElementById('button1').innerHTML = "hiya, derred";
+document.getElementById('button1').onclick = function(){O3A()};
+document.getElementById('button2').innerHTML = "hiya, derred";
+document.getElementById('button2').onclick = function(){O3A()};
+document.getElementById('button3').innerHTML = "hiya, derred";
+document.getElementById('button3').onclick = function(){O3A()};
+document.getElementById('button4').innerHTML = "hiya, derred";
+document.getElementById('button4').onclick = function(){O3A()};
+}
+function O3A(){
+    moodBack();
+document.getElementById('dialogue').innerHTML = "leave me be";
+document.getElementById('button1').innerHTML = "end";
+document.getElementById('button1').onclick = function(){E2()};
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O3A()};
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O3A()};
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){O3A()};
+}
+
+//04//04//04//04//04//04
+function O4A(){
+    moodCat();
+document.getElementById('dialogue').innerHTML = "well, yeahh, but";
+
+document.getElementById('button1').innerHTML = "<i>continue..</i>";
+document.getElementById('button1').onclick = function(){O4()};
+
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O4A()};
+
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O4A()};
+
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){O4A()};
+}
+function O4(){
+    moodPiss();
+document.getElementById('dialogue').innerHTML = "fuck you ¯/_(ツ)_/¯";
+
+document.getElementById('button1').innerHTML = "<i>end</i>";
+document.getElementById('button1').onclick = function(){E1()};
+
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){O4()};
+
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){O4()};
+
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){O4()};
+}
+
+//E1//E1//E1//E1//E1//E1
+function E1(){
+    moodOut()
+document.getElementById('dialogue').innerHTML = "<i>yeah idk what you expected you're a pervert</i>";
+
+document.getElementById('button1').innerHTML = "<i>continue..</i>";
+document.getElementById('button1').onclick = function(){E1A()};
+
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){E1()};
+
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){E1()};
+
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){E1()};
+}
+function E1A(){
+document.getElementById('dialogue').innerHTML = "<i>You got the No Bitches ending!</i>";
+
+document.getElementById('button1').innerHTML = "<i>restart</i>";
+document.getElementById('button1').onclick = function(){O02()};
+
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){E1A()};
+
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){E1A()};
+
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){E1A()};
+}
+
+//E2//E2//E2//E2//E2//E2
+function E2(){
+document.getElementById('dialogue').innerHTML = "<i>You got the Hiya, Derred ending!</i>";
+
+document.getElementById('button1').innerHTML = "<i>restart</i>";
+document.getElementById('button1').onclick = function(){O02()};
+
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){E2()};
+
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){E2()};
+
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){E2()};
+}
+
+//E3//E3
+function E3(){
+    moodCat()
+document.getElementById('dialogue').innerHTML = "damn can't relate";
+
+document.getElementById('button1').innerHTML = "<i>end</i>";
+document.getElementById('button1').onclick = function(){E3A()};
+
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){E3()};
+
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){E3()};
+
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){E3()};
+}
+function E3A(){
+document.getElementById('dialogue').innerHTML = "<i>You got the Unrelatable Ending!</i>";
+
+document.getElementById('button1').innerHTML = "<i>restart</i>";
+document.getElementById('button1').onclick = function(){O02()};
+
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){E3A()};
+
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){E3S()};
+
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){E3S()};
+}
+
+//E21//E21//E21//E21//E21//E21
+function E21(){
+moodOut()
+document.getElementById('dialogue').innerHTML = "<i>You got the Seinfeld ending!</i>";
+
+document.getElementById('button1').innerHTML = "<i>restart</i>";
+document.getElementById('button1').onclick = function(){O02()};
+
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){E21()};
+
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){E21()};
+
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){E21()};
+}
+
+//E22
+function E22(){
+    moodRealCat()
+document.getElementById('dialogue').innerHTML = "meow";
+
+document.getElementById('button1').innerHTML = "<i>end</i>";
+document.getElementById('button1').onclick = function(){E22A()};
+
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){E22()};
+
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){E22()};
+
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){E22()};
+}
+function E22A(){
+document.getElementById('dialogue').innerHTML = "<i>You got the Cat ending!</i>";
+
+document.getElementById('button1').innerHTML = "<i>restart</i>";
+document.getElementById('button1').onclick = function(){O02()};
+
+document.getElementById('button2').innerHTML = "wait wait I can make this work";
+document.getElementById('button2').onclick = function(){E22B()};
+
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){E22A()};
+
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){E22A()};
+}
+function E22B(){
+document.getElementById('dialogue').innerHTML = "<i>no you can't</i>";
+
+document.getElementById('button1').innerHTML = "<i>restart</i>";
+document.getElementById('button1').onclick = function(){O02()};
+
+document.getElementById('button2').innerHTML = "-";
+document.getElementById('button2').onclick = function(){E22B()};
+
+document.getElementById('button3').innerHTML = "-";
+document.getElementById('button3').onclick = function(){E22B()};
+
+document.getElementById('button4').innerHTML = "-";
+document.getElementById('button4').onclick = function(){E22B()};
+}
+
+
+
+
+var x = document.getElementById("seinfeld");
+
+    function playAudio() {
+      x.play();
+      x.volume=0.05;
+    }
+</script>
+
+</html>
