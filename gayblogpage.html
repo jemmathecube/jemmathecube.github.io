@@ -30,27 +30,16 @@ Gay Blog Page
 
 </head>
 
+<div class="topnav">
+    <a href="index.html"><img src="images/pagebuttons/homebutton.png" class="CrispPixels"></a>
+    <br> <a href="geometrydashpage.html"><img src="images/pagebuttons/GDbutton.png" class="CrispPixels"></a>
+    <br> <a href="modpage.html"><img src="images/pagebuttons/Modbutton.png" class="CrispPixels"></a>
+    <br> <img src="images/pagebuttons/gaycheepbuttonselect.png" class="CrispPixels">
+    <br> <a href="artpage.html"><img src="images/pagebuttons/artbutton.png" class="CrispPixels"></a>
+    <br> <a id="random"><img src="images/pagebuttons/randombutton.png" class="CrispPixels" cursor="pointer"></a>
+  </div>
+  <br>
 
-
-<!--Page Buttons-->
-  
-<div class= "pink1">
-
-    <center>
-        <a href="index.html"><img src="images/pagebuttons/backbutton.png" width="9%" class="CrispPixels"></a>
-    <img src="images/pagebuttons/button.png" width="9%" class="CrispPixels">
-    <img src="images/pagebuttons/button.png" width="9%" class="CrispPixels">
-    <a href="geometrydashpage.html"><img src="images/pagebuttons/GDbutton.png" width="9%" class="CrispPixels"></a>
-    <a href="modpage.html"><img src="images/pagebuttons/Modbutton.png" width="9%" class="CrispPixels"></a>
-   <img src="images/pagebuttons/gaycheepbuttonselect.png" width="9%" class="CrispPixels">
-    <a href="artpage.html"><img src="images/pagebuttons/artbutton.png" width="9%"  class="CrispPixels"></a>
-    <img src="images/pagebuttons/button.png" width="9%" class="CrispPixels">
-    <img src="images/pagebuttons/button.png" width="9%" class="CrispPixels">
-    <img src="images/pagebuttons/button.png" width="9%" class="CrispPixels">
-    </center>
-    
-    </div>
-    <br><br>
 
     
 
@@ -64,6 +53,27 @@ This page is <b>under construction.</b>
 <br> <br>
 
 
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+  let arrayofpages = [
+"404.html", 
+"artpage.html", "assets.html", 
+"boobs.html",
+"changelog.html", "createdlevels.html", 
+"datingsim.html", 
+"gayblogpage.html", "geometrydashpage.html", 
+"index.html", "index2.html", 
+"lore.html", 
+"modpage.html",
+"transghostwoo.html"
+];
+  let randompage = arrayofpages[Math.floor(Math.random() * arrayofpages.length)];
 
+  document.addEventListener("click", function() {
+    document.getElementById("random").href = `${randompage}`;
+    console.log(document.getElementById("lucky_btn").href);
+  });
+});
+</script>
 
 </html>

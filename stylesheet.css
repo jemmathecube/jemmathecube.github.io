@@ -34,10 +34,10 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
     }
 
-.white3 {
-    padding:10px;
+.white2 {
+    padding:50px;
     position: relative;
-    background: #ffffff;
+    background: #e6e6e6;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
         }
 
@@ -245,3 +245,16 @@ background: #ff98b9;
 box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
 }
     
+.topnav {
+    overflow: hidden;
+    background-color: #ff98b9;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:1;
+    height:100%;
+    width:53px;
+
+  }
+  
