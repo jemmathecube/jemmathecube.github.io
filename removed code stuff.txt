@@ -1,0 +1,37 @@
+  <center>
+      <a href="index2.html"><img src="images/webring/derredbutton.png" width="88" height="31" class="CrispPixels"></a>
+      
+      <a href="https://silvershorthair.github.io/"><img src="https://silvershorthair.github.io/Assets/Silvbutton2.png" width="88" height="31" class="CrispPixels"></a>
+      
+      <a href="https://miastonished.github.io/"><img src="https://miastonished.github.io/assets/buttons/button.gif" class="CrispPixels" width="88" height="31"></a>
+      
+    
+      </center>
+      <center>
+      <button class="WebringButtonLeft" onclick="window.location = 'https://stellaring.network/previous/'"><</button>
+
+      <a href="https://vaelaris.github.io/"><img src="https://vaelaris.github.io/weringbutton.png" class="CrispPixels" width="88" height="31"></a>
+      
+      <a href="https://skysupercharged.github.io/"><img src="https://skysupercharged.github.io/skysiteresources/skybutton.png" class="CrispPixels" width="88" height="31"></a>
+      
+      <a href="https://gumi.gay/"><img src="https://gumi.gay/logo.gif" class="CrispPixels" width="88" height="31"></a>
+
+      <button class="WebringButtonRight" onclick="window.location = 'https://stellaring.network/next/'">></button>
+      </center>
+      <center>
+      <a href="https://xzan-corvus.github.io/XzanCorvusEnterprises/"><img src="images/webring/Xzan_and_Proto.png" class="CrispPixels" width="88" height="31"></a>
+      <a href="https://fabledbugs.github.io"><img src="https://fabledbugs.github.io/bugsite.png" class="CrispPixels" width="88" height="31"></a>
+      <a href="https://wolfdragon245.github.io/"><img src="images/webring/wolfdragon.png" class="CrispPixels" width="88" height="31"></a>
+      </center>
+  
+  <center>This site is part of <b>Stellaring!</b> Check these ^ sites out!</center>
+
+
+
+<img src="images/artpage/jemma/crop/IMG_1212.jpg" width="9%" class="CrispPixels" onclick="jemma6()">
+
+function jemma6(){
+document.getElementById('image').src = "images/artpage/jemma/IMG_1212.jpg";
+document.getElementById('description').innerHTML = 
+'<p> <i> made by me </i> <br> A date with Silver <3 </p>';
+}
