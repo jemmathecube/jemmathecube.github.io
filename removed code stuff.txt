@@ -94,7 +94,7 @@ document.getElementById('description').innerHTML =
 function jemma8(){
 document.getElementById('image').src = "images/artpage/jemma/IMG_1215.jpg";
 document.getElementById('description').innerHTML = 
-'<p> <i> made by me </i> <br> Another random piece from the daily art </p>';
+'<p> <i> made by me </i> <br> Random piece from the daily art </p>';
 }
 
 function jemma3(){
