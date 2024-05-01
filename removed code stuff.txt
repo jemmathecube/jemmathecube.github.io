@@ -91,12 +91,6 @@ document.getElementById('description').innerHTML =
 '<p> <i> made by me </i> <br> Heres Jemma with hair </p>';
 }
 
-function jemma8(){
-document.getElementById('image').src = "images/artpage/jemma/IMG_1215.jpg";
-document.getElementById('description').innerHTML = 
-'<p> <i> made by me </i> <br> Random piece from the daily art </p>';
-}
-
 function jemma3(){
 document.getElementById('image').src = "images/artpage/jemma/IMG_1200.jpg";
 document.getElementById('description').innerHTML = 
