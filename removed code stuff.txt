@@ -96,3 +96,5 @@ document.getElementById('image').src = "images/artpage/jemma/IMG_1200.jpg";
 document.getElementById('description').innerHTML = 
 '<p> <i> made by me </i> <br> Another one of the days I drew Jemma </p>';
 }
+
+generally these are artstuffs that are a bit too on the nose for the public but you dug into the code and found this stuff so please just trust me on this one
