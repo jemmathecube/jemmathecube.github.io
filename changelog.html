@@ -53,6 +53,8 @@ HiyaDerred's website
 <div class="white1">
     <h2>Changelog</h2> 
     <p>
+      <b>0.9.0</b> (5/8/24): made the dreamsstuffs page, redesigned theme
+      <br><br>
       <b>0.8.0</b> (4/18/24): Made the Geometry Dash page, added art to the art page, other stuff here and there that needed updating.
       <br><br>
       0.7.3 (<a href="https://www.youtube.com/watch?v=SR4R7GHxU1w">3/14</a>/24): Changed Recently tab.
@@ -91,22 +93,26 @@ HiyaDerred's website
     </p> </div>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-      let arrayofpages = [
-    "404.html", 
-    "artpage.html", "assets.html", 
-    "changelog.html",
-    "gayblogpage.html", "geometrydashpage.html", 
-    "index.html", "index2.html", 
-    "lore.html", 
-    "modpage.html",
-    "transghostwoo.html"
-    ];
-      let randompage = arrayofpages[Math.floor(Math.random() * arrayofpages.length)];
-    
-      document.addEventListener("click", function() {
-        document.getElementById("random").href = `${randompage}`;
-        console.log(document.getElementById("lucky_btn").href);
-      });
+      document.addEventListener("DOMContentLoaded", function() {
+    let arrayofpages = [
+  "404.html", 
+  "artpage.html", "assets.html", 
+  "changelog.html",
+  "dream011424.html", "dream011524.html", "dream020224.html", 
+  "dream022924.html", "dream032424.html", "dream033024.html", 
+  "dream042924.html", "dream050624.html", "dreamclaustrophobia.html", 
+  "dreamfootsteps.html", "dreamsstuffs.html",
+  "gayblogpage.html", "geometrydashpage.html", 
+  "index.html", "index2.html", 
+  "lore.html", 
+  "modpage.html",
+  "transghostwoo.html"
+  ];
+    let randompage = arrayofpages[Math.floor(Math.random() * arrayofpages.length)];
+  
+    document.addEventListener("click", function() {
+      document.getElementById("random").href = `${randompage}`;
+      console.log(document.getElementById("lucky_btn").href);
     });
-    </script>
+  });
+  </script>
