@@ -1,22 +1,11 @@
-pages with random page button
+pages with random page button and sidebar
 
 artpage
 assets
 changelog
-dream011424
-dream011524
-dream020224
-dream022924
-dream032424
-dream033024
-dream042924
-dream050624
-dreamclaustrophobia
-dreamfootsteps
-
 dreamsstuffs
 gayblogpage
 geometrydashpage
 index
-miscdreams
 modpage
+usercontent

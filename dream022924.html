@@ -30,15 +30,7 @@ dreamsstuffs
 
 </head>
 
-<div class="topnav">
-    <a href="index.html"><img src="images/pagebuttons/trans/homebutton.png" class="CrispPixels2"></a>
-    <br> <a href="geometrydashpage.html"><img src="images/pagebuttons/trans/GDbutton.png" class="CrispPixels2"></a>
-    <br> <a href="modpage.html"><img src="images/pagebuttons/trans/Modbutton.png" class="CrispPixels2"></a>
-    <br> <a href="gayblogpage.html"><img src="images/pagebuttons/trans/gaycheepbutton.png" class="CrispPixels2"></a>
-    <br> <a href="artpage.html"><img src="images/pagebuttons/trans/artbutton.png" class="CrispPixels2"></a>
-    <br> <a id="random"><img src="images/pagebuttons/trans/randombutton.png" class="CrispPixels2" cursor="pointer"></a>
-  </div>
-  <br>
+
 
 <i>
 
@@ -64,27 +56,3 @@ dreamsstuffs
 
     </h3>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-    let arrayofpages = [
-  "404.html", 
-  "artpage.html", "assets.html", 
-  "changelog.html",
-  "dream011424.html", "dream011524.html", "dream020224.html", 
-  "dream022924.html", "dream032424.html", "dream033024.html", 
-  "dream042924.html", "dream050624.html", "dreamclaustrophobia.html", 
-  "dreamfootsteps.html", "dreamsstuffs.html",
-  "gayblogpage.html", "geometrydashpage.html", 
-  "index.html", "index2.html", 
-  "lore.html", 
-  "modpage.html",
-  "transghostwoo.html"
-  ];
-    let randompage = arrayofpages[Math.floor(Math.random() * arrayofpages.length)];
-  
-    document.addEventListener("click", function() {
-      document.getElementById("random").href = `${randompage}`;
-      console.log(document.getElementById("lucky_btn").href);
-    });
-  });
-  </script>
