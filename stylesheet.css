@@ -227,21 +227,6 @@ body {
     image-rendering: pixelated;
     -ms-interpolation-mode: nearest-neighbor;
 }
-
-.dateDialogue {
-    border-width:10px; 
-    border-style:solid;
-    border-color: rgb(52, 135, 202);
-    background:  rgb(67, 170, 255);
-    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
-}
-.dateOption {
-border-width:10px; 
-border-style:solid;
-border-color: #ff6294;
-background: #ff98b9;
-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
-}
     
 .topnav {
     overflow: hidden;
@@ -269,4 +254,3 @@ box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
     width:300px;
 
   }
-  
