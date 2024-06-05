@@ -117,6 +117,8 @@ Art Page
 <img src="images/artpage/olive/crop/IMG_1221.jpg" width="9%" class="CrispPixels" onclick="olive3()">
 <img src="images/artpage/olive/crop/blocky.jpeg" width="9%" class="CrispPixels" onclick="olive4()">
 
+<img src="images/artpage/jasmine/crop/plush.png" width="9%" class="CrispPixels" onclick="jasmine1()">
+
 <img src="images/artpage/jemma/crop/IMG_0105.png" width="9%" class="CrispPixels" onclick="jemma1()">
 <img src="images/artpage/jemma/crop/IMG_1202.jpg" width="9%" class="CrispPixels" onclick="jemma4()">
 <img src="images/artpage/jemma/crop/IMG_1215.jpg" width="9%" class="CrispPixels" onclick="jemma8()">
@@ -139,6 +141,8 @@ Art Page
 
 <img src="images/artpage/pixl/crop/icecubewoman.png" width="9%" class="CrispPixels" onclick="pixl1()">
 <img src="images/artpage/pixl/crop/fridge.png" width="9%" class="CrispPixels" onclick="pixl2()">
+
+<img src="images/artpage/shroomy/crop/shroomy.png" width="9%" class="CrispPixels" onclick="shroomy1()">
 
 <img src="images/artpage/trico/crop/sillydoodle.jpg" width="9%" class="CrispPixels" onclick="trico1()">
 </center>
@@ -299,6 +303,11 @@ document.getElementById('description').innerHTML =
 '<p> <i> made by<a href="https://artfight.net/~OliveGGtm"> Olive </a> </i> <br> for artfight 2023 </p>';
 }
 
+function jasmine1(){
+document.getElementById('image').src = "images/artpage/jasmine/plush.png";
+document.getElementById('description').innerHTML = 
+'<p> <i> made by jasmine </i> <br> made a while back during peak dysphoria days, silly cubegirlll </p>';
+}
 function jemma1(){
 document.getElementById('image').src = "images/artpage/jemma/IMG_0105.png";
 document.getElementById('description').innerHTML = 
@@ -409,37 +418,19 @@ document.getElementById('description').innerHTML =
 '<p> <i> made by Pixl </i> <br> fridge full of jemmas </p>';
 }
 
+function shroomy1(){
+document.getElementById('image').src = "images/artpage/shroomy/shroomy.png";
+document.getElementById('description').innerHTML = 
+'<p> <i> made by <a href="https://linktr.ee/shroomygloat">shroomy</a> </i> <br> SHES GOT A GUN RUN GET OUT GO GET OUT OF HERE SHES GONNA FUCK UP DA CRIB </p>';
+}
+
 function trico1(){
 document.getElementById('image').src = "images/artpage/trico/sillydoodle.jpg";
 document.getElementById('description').innerHTML = 
 '<p> <i> made by Trico </i> <br> :3 </p>';
 }
 
-    document.addEventListener("DOMContentLoaded", function() {
-  let arrayofpages = [
-"404.html", 
-"artpage.html", "assets.html", 
-"changelog.html",
-"dream011424.html", "dream011524.html", "dream020224.html", 
-"dream022924.html", "dream032424.html", "dream033024.html", 
-"dream042924.html", "dream050624.html", "dreamclaustrophobia.html", 
-"dream051224.html", "dream052024.html", "dream052224.html", "dream052624.html",
-"dreamfootsteps.html", "dreamsstuffs.html",
-"gayblogpage.html", "geometrydashpage.html", 
-"index.html", "index2.html", 
-"lore.html", 
-"modpage.html",
-"transghostwoo.html",
-"usercontent.html",
-"oneko.js-main/demo.html", 
-];
-  let randompage = arrayofpages[Math.floor(Math.random() * arrayofpages.length)];
 
-  document.addEventListener("click", function() {
-    document.getElementById("random").href = `${randompage}`;
-    console.log(document.getElementById("lucky_btn").href);
-  });
-});
 </script>
 
 
