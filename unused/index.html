@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="jemmahomerefer.css">
+
+<!--Tab Title-->
+
+<title>
+Jemma's home
+</title>
+
+
+
+<!--Tab Image-->
+
+<link rel="icon" type="image/x-icon" href="images/jemmahome.png">
+
+<style>
+
+body {
+    background-color: black;
+    background-image: url('images/jemmahome/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    overflow-y: clip;
+    color:rgb(70, 196, 255);
+    
+}
+
+html {
+    height: 100%;
+    
+}
+
+img {
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+
+
+</style>
+
+<!--Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<div class="miaexperiment2">
+<div class="miaexperiment">
+
+<img src="images/jemmahome/livingroom.png" height=100%; width="100%">
+
+<!--kitchen-->
+<div class="imagemap mouspoi" style="top:35%; left:2%; width:12%; height:31%" onmouseover="jemd(0)" onclick="window.location='homekitchen.html'">
+</div>
+
+<!--neighborhood-->
+<div class="imagemap mouspoi" style="top:38%; left:38%; width:24%; height:23%" onmouseover="jemd(1)" onclick="window.location='neighborhood.html'">
+</div>
+
+<!--office-->
+<div class="imagemap mouspoi" style="top:38%; left:86%; width:12%; height:25%" onmouseover="jemd(2)" onclick="window.location='homeoffice.html'">
+</div>
+
+<!--clock-->
+<div class="imagemap" style="top:34%; left:28%; width:3%; height:4%" onmouseover="jemd(3)">
+</div>
+
+<!--mug-->
+<div class="imagemap" style="top:42%; left:33.75%; width:2%; height:4%" onmouseover="jemd(4)">
+</div>
+
+<!--oldsite-->
+<div class="imagemap mouspoi" style="top:47%; left:25.3%; width:7%; height:12%" onmouseover="jemd(5)" onclick="window.location='indexold.html'">
+</div>
+
+<!--glasses of water-->
+<div class="imagemap" style="top:63%; left:14.2%; width:8.5%; height:14%" onmouseover="jemd(6)">
+</div>
+
+<!--ice cubes-->
+<div class="imagemap" style="top:64.5%; left:26%; width:6%; height:10%" onmouseover="jemd(7)">
+</div>
+
+<!--papers-->
+<div class="imagemap" style="top:63%; left:34%; width:7%; height:10.5%" onmouseover="jemd(8)">
+</div>
+
+<!--fan-->
+<div class="imagemap" style="top:15%; left:37%; width:25%; height:19%" onmouseover="jemd(9)">
+</div>
+
+<!--tv-->
+<iframe style="bottom:40.5%; left:53.25%; width:32%; height:30%; position:absolute; transform: scale(27.5%, 34.5%)" onmouseover="jemd(10)" src="https://www.youtube.com/embed/videoseries?si=gP3GQzDF1COqJH8M&amp;list=PLMSisxtKkkGfTKtmekJA-8IiI1R7QbFiV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+<!--couch-->
+<div class="imagemap" style="top:64%; left:71%; width:29%; height:36%" onmouseover="jemd(11)">
+</div>
+
+
+<div style="bottom:2%; width:100%; position:absolute;">
+<center><div id='window' class="dial">
+    
+hiya, I'm Jemma and this is my home! Hover around things to see what they are
+</div>
+</center>
+
+</div>
+
+</div>
+</div>
+
+
+
+<script>
+
+
+
+const jeml = [
+
+`and this is my kitchen..`,
+
+`let's visit the neighbors!`,
+
+`oh, let's check out the office!`,
+
+`it's ${Math.floor(Math.random() * 18)}'o clock!`,
+
+`I got this mug a while ago, barely used`,
+
+`just in case the new site layout is too wacky, this'll take you to the legacy site!`,
+
+`here's my glasses of water, without ice cubes`,
+
+`here's my ice cubes, without`,
+
+`evading taxes is so fucking cool`,
+
+`undefinable concept`,
+
+`I love this show!`,
+
+`comfy couch :3`
+
+]
+
+
+
+function jemd(x) {
+    document.getElementById('window').innerHTML = jeml[x];
+}
+
+</script>

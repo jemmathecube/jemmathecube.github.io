@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="jemmahomerefer.css">
+
+<!--Tab Title-->
+
+<title>
+Jemma's home
+</title>
+
+
+
+<!--Tab Image-->
+
+<link rel="icon" type="image/x-icon" href="images/jemmahome.png">
+
+<style>
+
+body {
+    background-color: black;
+    background-image: url('images/jemmahome/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    overflow-y: clip;
+    color:rgb(70, 196, 255);
+    
+}
+
+html {
+    height: 100%;
+    
+}
+
+img {
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+}
+
+
+
+</style>
+
+<!--Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+<audio id="SOMETHINGG">
+    <source src="audio/SOMETHINGNOISE.mp3" type="audio/mpeg">
+    aw
+  </audio>
+
+<div class="miaexperiment2">
+<div class="miaexperiment">
+
+
+<div id="SOMETHING">
+</div>
+
+<!--back to office-->
+<div class="imagemap mouspoi" style="top:27%; left:16.5%; width:6.5%; height:31%" onclick="window.location='homeoffice.html'">
+</div>
+
+<!--trash can-->
+<div class="imagemap mouspoi" style="top:70%; left:58.5%; width:3%; height:3%" onclick="window.location='trashcan.html'">
+</div>
+
+<!--top drawer-->
+<div class="imagemap mouspoi" style="top:75.5%; left:48.25%; width:4%; height:3%" onclick="window.location='topdrawer.html'">
+</div>
+
+<!--window-->
+<div class="imagemap mouspoi" style="top:36.5%; left:49%; width:1.5%; height:9.5%" onclick="window.location='halloweenhouse.html'">
+</div>
+
+<!--toilet-->
+<div class="imagemap mouspoi" style="top:51.5%; left:60.4%; width:2.5%; height:3.25%" onclick="playAudio()">
+</div>
+
+
+<!--SOMETHING-->
+<div class="imagemap mouspoi" id="CLICKSOMETHING" style="top:25%; left:35%; width:9%; height:31%; display:none" onclick="SOMETHINGAUDIO()">
+</div>
+
+
+
+
+</div>
+</div>
+
+<script>
+
+    var y = 0
+    
+        function playAudio() {
+            var FlushSound = new Audio('audio/flush.mp3');
+            FlushSound.play();
+            FlushSound.volume=0.25;
+            y++;
+
+            if (y >= 50){
+                window.location.href = "toilet.html";
+            }
+
+            
+        }
+
+            let text;
+            if (Math.random() <=0.05){
+                text = '<img src="images/jemmahome/altbathroom.png" height=100%; width="100%">'
+                document.getElementById("CLICKSOMETHING").style.display = "initial";
+            }
+            else {
+                text = '<img src="images/jemmahome/bathroom.png" height=100%; width="100%">'
+            }
+
+            document.getElementById("SOMETHING").innerHTML = text;
+
+            var SOMETHINGNOISE = document.getElementById("SOMETHINGG");
+
+        function SOMETHINGAUDIO() {
+                SOMETHINGNOISE.play();
+                SOMETHINGNOISE.volume=0.4;
+                text = '<img src="images/jemmahome/bathroom.png" height=100%; width="100%">'
+                document.getElementById("SOMETHING").innerHTML = text;
+                document.getElementById("CLICKSOMETHING").style.display = "none";
+            }
+     
+    </script>

@@ -7,5 +7,6 @@ dreamsstuffs
 gayblogpage
 geometrydashpage
 index
+legal
 modpage
 usercontent

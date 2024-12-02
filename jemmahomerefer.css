@@ -1,0 +1,201 @@
+.imagemap {
+    position: absolute;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    background-color:#ff00ff;
+    opacity:10%;
+}
+
+.mouspoi {
+    cursor:pointer;
+}
+
+.miaexperiment {
+
+height:75%;
+aspect-ratio: 667/398;
+position: relative;
+max-width: 100%;
+}
+
+.miaexperiment2 {
+
+display: flex;
+align-items:center;
+justify-content:center;
+height: 100%;
+
+    }
+
+/*
+.topnav {
+    overflow: hidden;
+    position:absolute;
+    bottom:0;
+    left:0;
+    z-index:1;
+  }
+*/
+
+.fulc {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.dial {
+
+    background-color:white; 
+    padding: 4px;
+    width:max-content; 
+    border: rgb(70, 196, 255) 0.35vw solid;
+    font-size: 1.1vw;
+
+}
+
+
+body {
+        /*Font*/
+        font-family:"Fira Sans Condensed", sans-serif;
+    }
+
+    .fira-sans condensed-thin {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 100;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-extralight {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-light {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 300;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-regular {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-medium {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-semibold {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-bold {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-extrabold {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 800;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-black {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 900;
+      font-style: normal;
+    }
+    
+    .fira-sans condensed-thin-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 100;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-extralight-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 200;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-light-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 300;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-regular-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 400;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-medium-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 500;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-semibold-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 600;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-bold-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 700;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-extrabold-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 800;
+      font-style: italic;
+    }
+    
+    .fira-sans condensed-black-italic {
+      font-family: "Fira Sans Condensed", sans-serif;
+      font-weight: 900;
+      font-style: italic;
+    }
+    
+    /*Font Size*/
+    h1 {
+        font-size:60px;
+    }
+    h2 {
+        font-size:45px;
+    }
+    h3 {
+        font-size:33px;
+    }
+    p {
+        font-size:26px;
+    }
+
+.CrispPixels {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.4);
+}
+.CrispPixels2 {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: pixelated;
+    -ms-interpolation-mode: nearest-neighbor;
+}
