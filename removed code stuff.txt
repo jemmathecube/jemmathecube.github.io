@@ -89,3 +89,107 @@ generally these are artstuffs that are a bit too on the nose for the public but 
     #ffd100 92.13%,
     #fde77f 92.13%
     );
+
+
+
+
+
+
+
+<div class= "blue1">
+  <h2><b>Linktree:</b>
+  <br><br> - Pronouns Page: <a href="https://en.pronouns.page/@jemmathecube">jemmathecube</a>
+  <br><br> - Youtube: <a href="https://www.youtube.com/channel/UCMPr5Rt2it3H7puDeX9NgrA">jemmathecube</a>
+  <br><br> - Steam: <a href="https://steamcommunity.com/id/HiyaJemma/">jemmathecube</a>
+  <br><br> - Discord: <a href="https://discordapp.com/users/538767789674987550/">jemmathecube</a>
+  <br><br> - Geometry Dash: <a href="https://gdbrowser.com/u/jemmathecube">jemmathecube</a>
+  <br><br> - Backloggery: <a href="https://backloggery.com/jemmathecube">jemmathecube</a>
+  <br><br> - Bluesky: <a href="https://bsky.app/profile/jemmathecube.bsky.social">jemmathecube</a>
+  <br><br> - Spotify: <a href="https://open.spotify.com/user/yavci3byztkf6uoqo3lw0z5wm?si=1148198b21a04290">jemmathecube</a></h2>
+  <img src="images/bonk.gif" width="500"> <br><br><br>
+  </div>
+  <br><br><br><br>
+
+<div class= "blue1">
+
+<h1>welcome to the blue cube woman™ website</h1>
+
+<p> hiya I'm Jemma, blue cube woman extrordinare
+<br><br>
+<img src="images/spinning.gif" width="100"><img src="images/spinning.gif" width="100"><img src="images/spinning.gif" width="100">
+
+<br> <br> this little webpage is here to give you a bit of info about me, and linktree to other stuff
+<br> <br> - my name's Jemma, I live in california somewhere perhaps. Born on July 3rd, 2006.
+<br> <br> - my pronouns are any/she <a href="https://en.pronouns.page/@jemmathecube">(my pronouns page)</a>, I don't mind being called other things. gender norms are fucked though
+<br> <br> - I'm diagnosed with aspergers (on the autistic spectrum), meaning you're gonna get a lotta rambling sometimes. I kinda need a minute or two to think about stuff as I'm saying it, will flub a lot of what I say when talking. I try my best to express how I feel about subjects, even when they aren't really relevant to much. Thought experiments are a lot of fun and I tend to drone on about those a bit too.
+<br> <br> - controversial take I think people are cool. gay people, black people, neurodivergent people, firefighters, people in general I think. Wouldn't exactly call it being progressive or woke or a liberal per se, I think it's basic respect to recognize that people live different lives than you do sometimes, and I try to live with that in mind.
+<br> <br> - with that being said I'm gay <br><br>
+<img src="images/dummy.png" width="500">
+</div>
+<br><br><br><br><br><br>
+<div class= "blue1">
+<h1><b>Hobbies:</b></h1>
+<p> - I like talking and thinking about game development, my <a href="https://backloggery.com/jemmathecube">backloggery page</a> is where I discuss and talk about games I've played, and track my backlog in general.
+<br> I wanna work in game development as a career, and I have a lot of particular ideas for games to make.
+<br> In general though, besides the game development, I also just play video games a lot in general. 
+<br><br> - I mentioned a blurb about how I ramble a lot earlier, but really, I ramble a *lot*. If you strike a fun conversation with me, I'll see it through. Debating philosophy and morality are my absolute jam. I think a lot about a lot of things. Just be sure to not be trolling or something. My discord is <a href="https://discordapp.com/users/538767789674987550/">jemmathecube</a> feel free to hit me up for fun stuff
+<br><br> - I also draw in my free time a lot, when I'm feeling bored and wanna watch some youtube idly in the background for a few hours. I like bundling up in bed and drawing on my dinky phone and getting better at it over time. 
+<br> I post a lot of my art on <a href="https://bsky.app/profile/jemmathecube.bsky.social">bluesky</a>, feel free to follow me there for that sorta thing
+<br><br> - once in a blue moon I like editing videos here and there, I post on my <a href="https://www.youtube.com/channel/UCMPr5Rt2it3H7puDeX9NgrA">youtube channel</a> when I have something to upload. I have a few ongoing projects here and there I want to dedicate time to, but it's nothing too big usually
+<br><br> - I've put a lot of time into geometry dash specifically, I know the ins and outs of the editor, I know how the game works top to bottom, and I have <a href="https://gdbrowser.com/u/jemmathecube">a lot to show for it</a>. It's generally contributed to some sorta coding knowledge, but it's the most pathetic kind of coding to have a solid grasp on tbh. I may or may not create stuff on there when I feel like it, but I'm not entirely sure on that as much anymore.
+<br><br> - Actively trying to get into music atm, will get back to you on stuff I like
+<img src="images/happyface.png" width="800">
+<br>VRC model by <a href="https://silvershorthair.github.io/">Silver</a></p>
+</div>
+<br><br><br><br><br><br>
+
+
+<div class= "blue1">
+  <br>
+<img src="images/newrefsheet.png" width="600">
+<br> <h2><b>^^^ reference sheet for people drawing my oc ^^^</b></h2>
+<p>general oc parameters:
+<br> - you can either draw just her cube head or her whole body, either way it represents her
+<br> - she can be drawn with or without a tail but she does have one
+<br> - suggestive art's fine but no nsfw don't be weird
+<br> - if you do draw her, tag me on bluesky or dm me on discord please I like seeing art of my oc
+<br> - any art of her I have the right to post on my accounts (with credit ofc)</p>
+</div>
+<br><br><br><br>
+
+
+<!--Webring and other details-->
+
+
+<div class="blue2">
+  <div class="webring">
+<br>
+    <center>
+      <a href="index2.html"><img src="images/webring/derredbutton.png" width="88" height="31" class="CrispPixels"></a>
+      
+      <a href="https://silvershorthair.github.io/"><img src="https://silvershorthair.github.io/Assets/Silvbutton2.png" width="88" height="31" class="CrispPixels"></a>
+      
+      <a href="https://miastonished.github.io/"><img src="https://miastonished.github.io/assets/buttons/button.gif" class="CrispPixels" width="88" height="31"></a>
+      
+    
+      </center>
+      <center>
+      <button class="WebringButtonLeft" onclick="window.location = 'https://stellaring.network/previous/'"><</button>
+
+      <a href="https://vaelaris.github.io/"><img src="https://vaelaris.github.io/weringbutton.png" class="CrispPixels" width="88" height="31"></a>
+      
+      <a href="https://skysupercharged.github.io/"><img src="https://skysupercharged.github.io/skysiteresources/skybutton.png" class="CrispPixels" width="88" height="31"></a>
+      
+      <a href="https://gumi.gay/"><img src="https://gumi.gay/logo.gif" class="CrispPixels" width="88" height="31"></a>
+
+      <button class="WebringButtonRight" onclick="window.location = 'https://stellaring.network/next/'">></button>
+      </center>
+      <center>
+      <a href="https://xzan-corvus.github.io/XzanCorvusEnterprises/"><img src="images/webring/Xzan_and_Proto.png" class="CrispPixels" width="88" height="31"></a>
+      <a href="https://fabledbugs.github.io"><img src="https://fabledbugs.github.io/bugsite.png" class="CrispPixels" width="88" height="31"></a>
+      </center>
+  
+  <center>This site is part of <a href="https://stellaring.network"><b>Stellaring!</b></a> Check these ^ sites out!</center>
+<br>
+</div></div
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
