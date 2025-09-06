@@ -123,8 +123,10 @@ Art Page
 <img src="images/artpage/diffusion/crop/diffuson1.jpg" width="5%" class="CrispPixels" onclick="diffusion1()" cursor="pointer">
 
 <img src="images/artpage/lite/crop/litecomm.jpg" width="5%" class="CrispPixels" onclick="lite1()" cursor="pointer">
+<img src="images/artpage/lite/crop/litecomm2.png" width="5%" class="CrispPixels" onclick="lite2()" cursor="pointer">
 
 <img src="images/artpage/mia/crop/IMG_1207.jpg" width="5%" class="CrispPixels" onclick="mia1()" cursor="pointer">
+<img src="images/artpage/mia/crop/miadoodle.png" width="5%" class="CrispPixels" onclick="mia2()" cursor="pointer">
 
 <img src="images/artpage/olive/crop/IMG_1203.jpg" width="5%" class="CrispPixels" onclick="olive1()" cursor="pointer">
 <img src="images/artpage/olive/crop/IMG_1204.jpg" width="5%" class="CrispPixels" onclick="olive2()" cursor="pointer">
@@ -144,14 +146,14 @@ Art Page
 <img src="images/artpage/jemma/crop/jemfrin.jpg" width="5%" class="CrispPixels" onclick="jemma36()" cursor="pointer">
 <img src="images/artpage/jemma/crop/pencil.jpg" width="5%" class="CrispPixels" onclick="jemma37()" cursor="pointer">
 
-
-
 <img src="images/artpage/pixl/crop/icecubewoman.png" width="5%" class="CrispPixels" onclick="pixl1()" cursor="pointer">
 <img src="images/artpage/pixl/crop/fridge.png" width="5%" class="CrispPixels" onclick="pixl2()" cursor="pointer">
 
 <img src="images/artpage/shroomy/crop/shroomy.png" width="5%" class="CrispPixels" onclick="shroomy1()" cursor="pointer">
 
 <img src="images/artpage/trico/crop/sillydoodle.jpg" width="5%" class="CrispPixels" onclick="trico1()" cursor="pointer">
+
+<img src="images/artpage/xfuture/crop/jemama.jpg" width="5%" class="CrispPixels" onclick="xfuture1()" cursor="pointer">
 </center>
 
 
@@ -309,10 +311,22 @@ document.getElementById('description').innerHTML =
 '<p> <i> made by<a href="https://ko-fi.com/litelikesart/commissions"> lite </a> </i> <br> silly commission thing </p>';
 }
 
+function lite2(){
+document.getElementById('image').src = "images/artpage/lite/litecomm2.png";
+document.getElementById('description').innerHTML = 
+'<p> <i> made by<a href="https://ko-fi.com/litelikesart/commissions"> lite </a> </i> <br> silly commission thing, 2!!!! </p>';
+}
+
 function mia1(){
 document.getElementById('image').src = "images/artpage/mia/IMG_1207.jpg";
 document.getElementById('description').innerHTML = 
 '<p> <i> made by<a href="https://miastonished.github.io"> mia </a> </i> <br> Mia drew this during the dysphoria boom I had in late 2023 </p>';
+}
+
+function mia2(){
+document.getElementById('image').src = "images/artpage/mia/miadoodle.png";
+document.getElementById('description').innerHTML = 
+'<p> <i> made by<a href="https://miastonished.github.io"> mia </a> </i> <br> fun lil doodle with me and silver </p>';
 }
 
 function olive1(){
@@ -469,6 +483,12 @@ function trico1(){
 document.getElementById('image').src = "images/artpage/trico/sillydoodle.jpg";
 document.getElementById('description').innerHTML = 
 '<p> <i> made by Trico </i> <br> :3 </p>';
+}
+
+function xfuture1(){
+document.getElementById('image').src = "images/artpage/xfuture/jemama.jpg";
+document.getElementById('description').innerHTML = 
+'<p> <i> made by xfuture </i> <br> they are learning how to draw so I asked if they could draw mee! </p>';
 }
 
 function birfday1(){
