@@ -9,4 +9,3 @@ geometrydashpage
 index
 legal
 modpage
-usercontent
